@@ -31,7 +31,7 @@ except ImportError:
     print('You must have setuptools installed to use setup.py. Exiting...')
     raise SystemExit(1)
 
-LIBRARY_NAME = 'ZapLibrary'
+LIBRARY_NAME = 'zaplibrary'
 CWD = abspath(dirname(__file__))
 
 
@@ -47,13 +47,13 @@ setup(
     long_description="A OWASP ZAP testing library for Robot framework",
     author="Vitor Aires",
     author_email='airesv@gmail.com',
-    license ='GPL 3.0',
-    download_url="https://github.com/airesv/zapLibrary",
+    license='Apache License, Version 2.0',
+    url="https://github.com/airesv/zapLibrary",
     platforms=['any'],
     package_dir={'': 'src',},
     packages=['ZapLibrary'],
     classifiers=[
-        'Development Status :: 3 - Beta',
+        'Development Status :: 4 - Beta',
         'Topic :: Security',
         'Topic :: Software Development :: Libraries :: Python Modules',
         'Intended Audience :: Developers',

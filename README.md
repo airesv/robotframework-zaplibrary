@@ -11,7 +11,10 @@
 ## How do I get set up?
 ### Is needed some depending libraries, that can be installed, through pip:
 
-    The ZAP api can be downloaded from PyPI (download link in The ZAP API page) or it can be installed using:
+The OWASP ZAP must be installed in server where the test should run,
+
+
+The ZAP api can be downloaded from PyPI (download link in The ZAP API page) or it can be installed using:
 
     pip install python-owasp-zap-v2.4
 
@@ -46,8 +49,8 @@
 |Get Zap Sites| *[Return]*:Sites | Returns in JSON format, a list of sites accessed by ZAP during the scan.
 |Get Zap Html Report| *[Return]*:Html Format | Returns in Html format, the Report of the ZAP scan
 |Shutdown ZAP|    |  Use to Shutdown Zap application|
-|Set Firefox proxy|*[Arguments]*:Host , Port| Configure a Firefox profile to be able to run a Firefox Browser instance that allows  redirect all Request and Reponses to ZAP application to the Host:Port
-|Set Chorme proxy|*[Arguments]*:Host , Port| Configure a Chrome browser to be able to run a Browser instance that allows  redirect all Request and Reponses to ZAP application to the Host:Port
+|Set Firefox proxy|*[Arguments]*:Host, Port| Configure a Firefox profile to be able to run a Firefox Browser instance that allows  redirect all Request and Reponses to ZAP application to the Host:Port
+|Set Chorme proxy|*[Arguments]*:Host, Port| Configure a Chrome browser to be able to run a Browser instance that allows  redirect all Request and Reponses to ZAP application to the Host:Port
 
 
 ### Usage
@@ -80,7 +83,7 @@ Shutdown ZAP
 
 ### Who do I talk to?
 
-* Vitor Aires // vapereira@criticalsoftware.com
+* Vitor Aires // airesv@gmail.com
 
 ### Todo
 * Beta testing;
