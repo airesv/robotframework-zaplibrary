@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: robotframework-zaplibrary
+Version: 0.0.1
+Summary: A OWASP ZAP testing library for Robot framework
+Home-page: UNKNOWN
+Author: ZAP development team & Vitor Aires
+Author-email: vapereira@criticalsoftware.com
+License: GPL 3.0
+Description: A OWASP ZAP testing library for Robot framework
+Keywords: robot framework testing automation Owasp Zap penetest security softwaretesting
+Platform: any
+Classifier: Development Status :: 3 - Beta
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
