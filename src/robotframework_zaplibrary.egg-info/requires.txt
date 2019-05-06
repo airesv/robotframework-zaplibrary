@@ -1,2 +1,0 @@
-future
-robotframework>=2.6.0

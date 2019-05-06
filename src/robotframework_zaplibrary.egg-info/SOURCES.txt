@@ -1,8 +1,0 @@
-setup.cfg
-setup.py
-src/ZapLibrary/__init__.py
-src/robotframework_zaplibrary.egg-info/PKG-INFO
-src/robotframework_zaplibrary.egg-info/SOURCES.txt
-src/robotframework_zaplibrary.egg-info/dependency_links.txt
-src/robotframework_zaplibrary.egg-info/requires.txt
-src/robotframework_zaplibrary.egg-info/top_level.txt
