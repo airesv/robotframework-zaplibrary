@@ -21,9 +21,7 @@ ZAP Library - a OWASP ZAP testing library.
 
 __docformat__ = 'restructuredtext'
 
-import codecs
-from os.path import abspath, dirname, join
-from setuptools import setup, find_packages
+from os.path import abspath, dirname
 
 try:
     from setuptools import setup, find_packages
@@ -41,8 +39,9 @@ install_dependencies = (
 )
 
 setup(
-    name='robotframework-%s' % LIBRARY_NAME.lower(),
-    version='0.0.1',
+    #name='robotframework-%s' % LIBRARY_NAME.lower(),
+    name='zapLibrary',
+    version='1.0.2',
     description="A OWASP ZAP testing library for Robot framework",
     long_description="A OWASP ZAP testing library for Robot framework",
     author="Vitor Aires",
@@ -50,8 +49,8 @@ setup(
     license='Apache License, Version 2.0',
     url="https://github.com/airesv/zapLibrary",
     platforms=['any'],
-    package_dir={'': 'src',},
-    packages=['ZapLibrary'],
+    package_dir={'zapLibrary': ''},
+    packages=['zapLibrary'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Topic :: Security',
@@ -62,6 +61,7 @@ setup(
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.7',
     ],
     keywords='robot framework testing automation Owasp Zap penetest security softwaretesting',
     install_requires=['future', 'robotframework >= 2.6.0']

@@ -2,34 +2,139 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcf52d6b-97cc-4147-ad7a-dcdf995ab0a0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENCE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/robotframework-zaplibrary-0.0.1.zip" afterPath="$PROJECT_DIR$/dist/robotframework-zaplibrary-0.0.1.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/__init__.py" afterPath="$PROJECT_DIR$/build/lib/ZapLibrary/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ZapLibrary/__init__.py" afterPath="$PROJECT_DIR$/src/ZapLibrary/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/robotframework_zaplibrary.egg-info/PKG-INFO" afterPath="$PROJECT_DIR$/src/robotframework_zaplibrary.egg-info/PKG-INFO" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/robotframework_zaplibrary.egg-info/requires.txt" afterPath="$PROJECT_DIR$/src/robotframework_zaplibrary.egg-info/requires.txt" />
+      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/zapLibrary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/zapLibrary.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/ZAPv2/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/ZAPv2/acsrf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/ZAPv2/ajaxSpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/ZAPv2/ascan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/ZAPv2/authentication.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/ZAPv2/authorization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/ZAPv2/autoupdate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/ZAPv2/brk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/ZAPv2/context.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/ZAPv2/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/ZAPv2/forcedUser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/ZAPv2/httpSessions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/ZAPv2/importLogFiles.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/ZAPv2/importurls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/ZAPv2/openapi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/ZAPv2/params.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/ZAPv2/pnh.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/ZAPv2/pscan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/ZAPv2/replacer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/ZAPv2/reveal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/ZAPv2/script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/ZAPv2/search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/ZAPv2/selenium.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/ZAPv2/sessionManagement.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/ZAPv2/spider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/ZAPv2/stats.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/ZAPv2/users.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/ZapLibrary.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/ZapLibrary/ZapLibrary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/ZapLibrary/version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/robotframework-zaplibrary-0.0.1.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/robotframework-zaplibrary-0.0.1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/robotframework_zaplibrary-0.0.1-py2.7.egg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/robotframework_zaplibrary-0.0.1-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/ZapLibrary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZapLibrary/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/zapLibrary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/robotframework_zaplibrary.egg-info/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/robotframework_zaplibrary.egg-info/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/robotframework_zaplibrary.egg-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/robotframework_zaplibrary.egg-info/requires.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/robotframework_zaplibrary.egg-info/top_level.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="50" column="25" lean-forward="false" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+            <state relative-caret-position="646">
+              <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setup.cfg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LICENCE.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zapLibrary.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
               <folding>
-                <element signature="e#759#772#0" expanded="true" />
+                <element signature="e#197#206#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zapLibrary.egg-info/dependency_links.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zapLibrary.egg-info/requires.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zapLibrary.egg-info/SOURCES.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zapLibrary.egg-info/top_level.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="10" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zapLibrary.egg-info/PKG-INFO">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -63,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/zapLibrary.py" />
         <option value="$PROJECT_DIR$/src/ZapLibrary.py" />
         <option value="$PROJECT_DIR$/src/version.py" />
         <option value="$PROJECT_DIR$/src/___init__.py" />
@@ -78,64 +182,70 @@
         <option value="$PROJECT_DIR$/src/ZapLibrary/__init__.py" />
         <option value="$PROJECT_DIR$/LICENCE.txt" />
         <option value="$PROJECT_DIR$/.pypirc" />
+        <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/src/zapLibrary.py" />
         <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/zapLibrary.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-2331" />
-    <option name="y" value="-9" />
-    <option name="width" value="2341" />
-    <option name="height" value="1368" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="40" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="zapLibrary">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="robotframework-zaplibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robotframework-zaplibrary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robotframework-zaplibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robotframework-zaplibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robotframework-zaplibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robotframework-zaplibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robotframework-zaplibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robotframework-zaplibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="zapLibrary.egg-info" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vapereira\Documents\robotframework-zaplibrary" />
+      <recent name="C:\Users\vapereira\Documents\robotframework-zaplibrary\src" />
+      <recent name="C:\Users\vapereira\Documents\robotframework-zaplibrary\src\zapLibrary" />
+      <recent name="C:\testing\zapLibrary\doc" />
+      <recent name="C:\testing\zapLibrary\src\ZapLibrary\ZAPv2" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\testing\zapLibrary\src\ZapLibrary" />
       <recent name="C:\testing\zapLibrary" />
       <recent name="C:\testing\zapLibrary\ZAPv2" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\testing\zapLibrary\doc" />
-      <recent name="C:\testing\zapLibrary\src\ZapLibrary\ZAPv2" />
-      <recent name="C:\testing\zapLibrary\src\ZapLibrary" />
-      <recent name="C:\testing\zapLibrary\src" />
-      <recent name="C:\testing\zapLibrary\src\zapLibrary" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -151,74 +261,50 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="zapLibrary" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="zapLibrary" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="SDK_HOME" value="C:\Users\vapereira\AppData\Local\Programs\Python\Python37-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="zapLibrary" />
-      <option name="SCRIPT_NAME" value="" />
+      <option name="SCRIPT_NAME" value="C:\Users\vapereira\Documents\robotframework-zaplibrary\zapLibrary.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="zapLibrary" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="zapLibrary" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="py.test">
+      <module name="zapLibrary" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="zapLibrary" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;.&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
+      <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.zapLibrary" />
+      </list>
+    </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -231,127 +317,34 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2331" y="-9" width="2341" height="1368" extended-state="6" />
+    <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28830022" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24988963" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32917705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23940149" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21202114" />
+      <window_info id="Structure" order="1" weight="0.24988963" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.23940149" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32917964" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32917964" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.30551627" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32917964" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="1" />
-    </breakpoint-manager>
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ZapLibrary/version.py" />
-    <entry file="file://$PROJECT_DIR$/src/ZapLibrary/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="35" column="59" lean-forward="false" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filesI.txt" />
-    <entry file="file://$PROJECT_DIR$/src/ZapLibrary/version.py" />
-    <entry file="file://$PROJECT_DIR$/src/ZapLibrary/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZapLibrary/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filesI.txt" />
-    <entry file="file://$PROJECT_DIR$/src/ZapLibrary/version.py" />
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1550">
-          <caret line="64" column="48" lean-forward="false" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZapLibrary/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="60" column="35" lean-forward="false" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZapLibrary/version.py" />
-    <entry file="file://$PROJECT_DIR$/filesI.txt" />
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/src/ZapLibrary/version.py" />
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZapLibrary/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/src/ZapLibrary/ZAPv2/ascan.py" />
-    <entry file="file://$PROJECT_DIR$/src/ZapLibrary/ZAPv2/core.py" />
-    <entry file="file://$PROJECT_DIR$/src/ZapLibrary/ZAPv2/__init__.py" />
     <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/zapLibrary.iml">
       <provider selected="true" editor-type-id="text-editor">
@@ -360,18 +353,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/-762174762/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="3914" column="0" lean-forward="true" selection-start-line="3914" selection-start-column="0" selection-end-line="3914" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZapLibrary.py" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/-762174762/__builtin__.py" />
     <entry file="file://$PROJECT_DIR$/src/ZapLibrary/ZAPv2/ascan.py" />
-    <entry file="file://$PROJECT_DIR$/src/ZapLibrary/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/src/ZapLibrary/version.py" />
-    <entry file="file://$PROJECT_DIR$/src/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/__init__.py" />
     <entry file="file://$PROJECT_DIR$/src/robotframework_zaplibrary.egg-info/dependency_links.txt" />
     <entry file="file://$PROJECT_DIR$/src/robotframework_zaplibrary.egg-info/PKG-INFO" />
     <entry file="file://$PROJECT_DIR$/src/robotframework_zaplibrary.egg-info/requires.txt" />
@@ -379,61 +363,86 @@
     <entry file="file://$PROJECT_DIR$/src/robotframework_zaplibrary.egg-info/top_level.txt" />
     <entry file="file://$PROJECT_DIR$/src/ZapLibrary/ZAPv2/ajaxSpider.py" />
     <entry file="file://$PROJECT_DIR$/src/ZapLibrary/ZAPv2/acsrf.py" />
-    <entry file="file://C:/Python27/Lib/site-packages/zapv2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="54" column="41" lean-forward="false" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/zapv2/__init__.py" />
     <entry file="file://$PROJECT_DIR$/src/ZapLibrary/ZapLibrary.html" />
     <entry file="file://$PROJECT_DIR$/src/ZapLibrary/version.py" />
     <entry file="file://$PROJECT_DIR$/src/ZapLibrary/ZAPv2/__init__.py" />
     <entry file="file://$PROJECT_DIR$/src/ZapLibrary/ZAPv2/core.py" />
     <entry file="file://$PROJECT_DIR$/filesI.txt" />
-    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/firefox/firefox_profile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/firefox/firefox_profile.py" />
     <entry file="file://$PROJECT_DIR$/.pypirc" />
-    <entry file="file://$PROJECT_DIR$/setup.cfg">
+    <entry file="file://$PROJECT_DIR$/src/zapLibrary/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/build/lib/zapLibrary/zapLibrary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZapLibrary/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="68" column="9" lean-forward="false" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENCE.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="50" column="25" lean-forward="false" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+        <state relative-caret-position="646">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="68" column="9" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENCE.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zapLibrary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
           <folding>
-            <element signature="e#759#772#0" expanded="true" />
+            <element signature="e#197#206#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zapLibrary.egg-info/dependency_links.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zapLibrary.egg-info/requires.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zapLibrary.egg-info/SOURCES.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zapLibrary.egg-info/PKG-INFO">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zapLibrary.egg-info/top_level.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>

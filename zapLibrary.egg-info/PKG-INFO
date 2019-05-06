@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: zapLibrary
+Version: 1.0.2
+Summary: A OWASP ZAP testing library for Robot framework
+Home-page: https://github.com/airesv/zapLibrary
+Author: Vitor Aires
+Author-email: airesv@gmail.com
+License: Apache License, Version 2.0
+Description: A OWASP ZAP testing library for Robot framework
+Keywords: robot framework testing automation Owasp Zap penetest security softwaretesting
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.7

@@ -1,0 +1,10 @@
+README.md
+__init__.py
+setup.cfg
+setup.py
+zapLibrary.py
+zapLibrary.egg-info/PKG-INFO
+zapLibrary.egg-info/SOURCES.txt
+zapLibrary.egg-info/dependency_links.txt
+zapLibrary.egg-info/requires.txt
+zapLibrary.egg-info/top_level.txt

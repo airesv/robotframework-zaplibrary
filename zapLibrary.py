@@ -22,10 +22,6 @@ class zapLibrary(object):
         = Table of contents =
 
         - `Usage`
-        - `Examples`
-        - `Importing`
-        - `Shortcuts`
-        - `Keywords`
 
         = Usage =
 
